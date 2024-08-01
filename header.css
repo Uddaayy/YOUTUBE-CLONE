@@ -1,0 +1,153 @@
+.searchbox{
+    display: flex;
+    flex: 1;
+    height: 36px;
+    padding-left: 10px;
+    font-size: 16px;
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(184, 182, 182);
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 1px rgba(0, 0, 0, 0.05);
+    width: 0;
+}
+.searchbox::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.search .mic .cools .notifies .create .pro{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.header{
+    height:55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-bottom-width: 1px;
+    border-style: solid;
+    border-color: rgb(224, 224, 224);
+    z-index: 100;
+}
+.first{
+    display: flex;
+    align-items: center;
+}
+.middle{
+    display: flex;
+    flex:1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 500px;
+    align-items: center;
+}
+.last{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 220px;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+.Hamburger{
+    height: 22px;
+    margin-top: 7px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.logo{
+    height: 35px;
+}
+.mic{
+    position: relative;
+    height: 39px;
+    width: 30px;
+    background-color: white;
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(179, 179, 179);
+    border-radius: 20px;
+    border: none;
+}
+.search,.mic,.cools,.notifies,.create,.pro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.search{
+    position: relative;
+    height: 39px;
+    width: 50px;
+    background-color: white;
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(179, 179, 179);
+    margin-right: 8px;
+}
+.search .tooltip,.mic .tooltip,.cools .tooltip,.notifies .tooltip,.create .tooltip,.pro .tooltip{
+    position: absolute;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(78, 77, 77);
+    color: white;
+    padding-top: 4px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 4px;
+    bottom: -30px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    white-space: nowrap;
+}
+.search:hover .tooltip,.mic:hover .tooltip,.cools:hover .tooltip,.notifies:hover .tooltip
+,.create:hover .tooltip,.pro:hover .tooltip{
+    opacity: 1;
+}
+.searchimage{
+    height: 20px;
+    margin-right: -1px;
+}
+.micimage{
+    height: 20px;
+    margin-right: -1px;
+}
+.tool{
+    height: 24px;
+}
+.Notify{
+    height: 24px;
+}
+.notify-number{
+    position: absolute;
+    background-color: rgb(191, 17, 17);
+    color: white;
+    top: 0px;
+    right: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    padding-left:4px;
+    padding-right:4px ;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-radius:10px;
+    
+}
+.notify-container{
+    position:relative;
+}
+.propic{
+    border-radius: 16px;
+    height: 32px;
+}
+.coolgrid{
+    height: 24px;
+}
